@@ -19,7 +19,7 @@ public class ELTDriver {
 
     public static void main(String[] args) throws Exception {
         Job job= Job.getInstance(new Configuration());
-        //--------map--------
+        //--------map---d-----
         FileInputFormat.setInputPaths(job, new Path(args[0]));
         job.setJarByClass(ELTDriver.class);
         job.setMapperClass(ETLMap.class);
