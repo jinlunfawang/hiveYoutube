@@ -9,6 +9,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 /**
+ * testGitPush
  * Created by Liang on 2020/3/1.
  * <p>
  * 清洗数据
